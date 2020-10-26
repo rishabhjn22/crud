@@ -1,0 +1,13 @@
+{
+  "product": [
+    {
+      "productname": "product2",
+      "category": "clothes",
+      "size": "50",
+      "price": "5000",
+      "stocks": "20",
+      "desc": "lknklnzxklzxnk",
+      "id": 2
+    }
+  ]
+}

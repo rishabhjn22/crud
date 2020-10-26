@@ -42,7 +42,6 @@ const Home = () => {
               <tr>
                 <th scope="row">{index + 1}</th>
                 <td>{product.productname}</td>
-                <td>{localStorage.getItem('myname')}</td>
                 <td>{product.category}</td>
                 <td>{product.price}</td>
                 <td>{product.stocks}</td>

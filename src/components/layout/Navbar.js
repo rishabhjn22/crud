@@ -8,7 +8,7 @@ const Navbar = () => {
   // const { productname } = product;
   // var state = ''
   // const [state] = useState({value: localStorage.getItem('myname')});
-  const [name, setName] = localStorage.getItem('myname')
+  //const [name, setName] = localStorage.getItem('myname')
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
@@ -27,7 +27,6 @@ const Navbar = () => {
         </button>
 
         <Link className="btn btn-outline-light" to="/product/add">Add Product</Link>
-        <div >{name}</div>
 
       </div>
     </nav>

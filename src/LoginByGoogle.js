@@ -7,9 +7,6 @@ import { useHistory } from "react-router-dom";
 
   const responseGoogle = (response) => {
     console.log(JSON.stringify(response.nt))
-    localStorage.setItem('myname', response.nt.Ad);
-    localStorage.setItem('myemail', response.nt.Wt);
-    console.log(localStorage.getItem('myname'))
     history.push("/home");
   }
 
